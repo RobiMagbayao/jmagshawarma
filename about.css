@@ -1,0 +1,16 @@
+
+.about-us-content{
+    text-align: justify;
+    font-family: 'Philosopher', sans-serif;
+    line-height: 30px;
+}
+
+.about-header{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+}
+
+.qoute{
+    font-family: 'Dancing Script', cursive;
+}

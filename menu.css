@@ -1,0 +1,29 @@
+.card-title{
+    padding-bottom: 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.menu-item{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+}
+
+.menu-item-design{
+    width: 60px;    
+}
+
+@media only screen and (min-width: 425px) and (max-width: 600px){
+    .menu-item-design{
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 425px){
+    .menu-item-design{
+        width: 20px;
+    }
+}
+
