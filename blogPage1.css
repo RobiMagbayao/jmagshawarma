@@ -1,0 +1,11 @@
+.section-header::before{
+    background-image: url("images/blog1.jpg");
+}
+
+.overline{
+    isolation: isolate;
+    border-bottom: none !important; 
+    padding-bottom: none !important;
+    border-top: none !important;
+    padding-top: none !important;
+}
