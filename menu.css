@@ -1,3 +1,7 @@
+.section-header::before{
+    background-image: url("images/section-img2.jpg");
+}
+
 .card-title{
     padding-bottom: 10px;
     font-family: 'Philosopher', sans-serif;

@@ -1,4 +1,8 @@
 
+.section-header::before{
+    background-image: url("images/section-img3.jpg");
+}
+
 .about-us-content{
     text-align: justify;
     font-family: 'Philosopher', sans-serif;

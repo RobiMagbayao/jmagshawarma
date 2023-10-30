@@ -43,43 +43,28 @@ a:hover{
 }
 
 .section-header {
-    margin-top: 30px;
+    width: 100%;
+    min-height: 80vh;
+    max-height: 80vh;
+    display: grid;
+    place-items: center;
     position: relative;
-    width: 100%;
-    min-height: 80vh;
-    max-height: 80vh;
-    margin: auto;
+    background-color: black;
   }
-  .section-header img {
-    vertical-align: middle;
-    min-height: 80vh;
-    max-height: 80vh;
-    object-fit: cover;
+
+.section-header::before{
     width: 100%;
-  }
-  .section-header .text {
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
-    z-index: 2;
-    text-align: center;
-  }
-  
-  .section-header .text h2{
-      font-size: 5rem;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-shadow: 2px 2px 10px black;
+    inset: 0;
+    opacity: 0.4;
   }
 
 .overline{
+    margin-top: 40px;
+    isolation: isolate;
     border-bottom: 10px solid white;
     padding-bottom: 15px;
     border-top: 10px solid white;
@@ -119,18 +104,10 @@ a:hover{
     }
 
     .section-header {
-        max-height: 40vh;
-        margin-top: 30px;
+        min-height: 60vh;
+        max-height: 60vh;
     }
     
-    .section-header img {
-        max-height: 40vh;
-    }
-
-    .section-header .text h2{
-        font-size: 2rem;
-    }
-
     .overline{
         border-bottom: 2px solid white;
         padding-bottom: 5px;
@@ -157,6 +134,12 @@ a:hover{
     .navbar-toggler{
         font-size: 1rem;
     }
+
+    .section-header {
+        min-height: 60vh;
+        max-height: 60vh;
+    }
+    
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -169,31 +152,19 @@ a:hover{
         transform: none;
     }
 
-      .section-header {
-        min-height: 50vh;
-        margin-top: 30px;
-      }
-
-    .section-header img {
-        min-height: 50vh;
+    .section-header {
+        min-height: 80vh;
+        max-height: 80vh;
     }
 
 }
 
 
 @media only screen and (min-width: 300px) and (max-width: 425px){
-    .section-header .text h2{
-        font-size: 2rem;
-    }
-
+    
     .section-header {
         min-height: 40vh;
-        margin-top: 30px;
       }
-      
-    .section-header img {
-        min-height: 40vh;
-    }
 
     .overline{
         border-bottom: 2px solid white;
@@ -203,26 +174,11 @@ a:hover{
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 600px){
-    .section-header .text h2{
-        font-size: 2.5rem;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 768px){
-    .section-header .text h2{
-        font-size: 4rem;
-    }
-}
 
 @media only screen and (min-width: 425px) and (max-width: 768px){
   
     .section-header {
         min-height: 50vh;
-        margin-top: 30px;
-      }
-      
-    .section-header img {
-        min-height: 50vh;
     }
+      
 }  
