@@ -32,6 +32,7 @@ a:hover{
 .navbar-brand img{
     height: 2.5rem;
     margin-right: 8px;
+    padding-left: 10px;
 }
 
 .navbar-brand{
@@ -42,6 +43,10 @@ a:hover{
     text-shadow: 0 0 10px yellow;
 }
 
+.navbar-toggler{
+    margin-right: 10px;
+}
+
 .section-header {
     width: 100%;
     min-height: 80vh;
@@ -50,6 +55,7 @@ a:hover{
     place-items: center;
     position: relative;
     background-color: black;
+    font-family: 'Poppins', sans-serif;
   }
 
 .section-header::before{
@@ -65,9 +71,9 @@ a:hover{
 .overline{
     margin-top: 40px;
     isolation: isolate;
-    border-bottom: 10px solid white;
+    border-bottom: 7px solid white;
     padding-bottom: 15px;
-    border-top: 10px solid white;
+    border-top: 7px solid white;
     padding-top:10px;
 }
 

@@ -7,6 +7,7 @@
     text-align: justify;
     font-family: 'Philosopher', sans-serif;
     line-height: 30px;
+    font-size: 1.15rem;
 }
 
 .about-header{
@@ -18,3 +19,4 @@
 .qoute{
     font-family: 'Dancing Script', cursive;
 }
+
